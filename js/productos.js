@@ -130,6 +130,7 @@ function agregarEventoSelImagen() {
 function limpiarCamposForm() {
   modal.querySelector("form").reset();
   imagen.src = "";
+  tbodyPrecios.innerHTML = "";
 }
 
 function validarFormulario() {
